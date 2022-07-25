@@ -7,6 +7,6 @@ def password(length):
         password += random.choice(symbols)
     print(password)
 
-length = int(input('Mount of the symbols: '))
+length = int(input('Count of the symbols: '))
 
 password(length)
